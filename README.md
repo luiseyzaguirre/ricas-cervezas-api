@@ -19,7 +19,11 @@
      
 ###  Información  Adicional
     
-    Para revisar la base de datos via consola web: http://localhost:8080/h2-console/
+    Para revisar la base de datos via consola web: 
+          http://localhost:8080/bender/ricas/cervezas/h2-console/
+               para persistencia en disco llenar en JDBC URL : jdbc:h2:file:~/:testdb;DB_CLOSE_ON_EXIT=FALSE;
+               para persistencia en memoria llenar en JDBC URL : jdbc:h2:mem:testdb;
+     NOTA: Al inicio se llenar 4 registros de prueba el archivo es import.sql          
     
     Para revisar y/o ejecutar los rest desde swagger :
     
