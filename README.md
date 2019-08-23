@@ -3,7 +3,10 @@
 ### SOLUCION a Test MS
 
 ### Crear un API Rest basándonos en la definición que se encuentra en el archivo **openapi.yaml**.
+Para ver las definiciones del rest ir a:  http://localhost:8080/bender/ricas/cervezas/swagger-ui.htm
+
      Se creo la api usando java con spring boot 2 con las definiciones de openapi.yaml
+     
 
 ### Esta API debe permitir persistir la información en una base de datos y en memoria.
     Se usó H2 para persistir los datos en memoria y base de datos. También se podria haber utilizado Mongo.
