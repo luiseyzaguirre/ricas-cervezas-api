@@ -27,7 +27,7 @@ Para ver las definiciones del rest ir a:  http://localhost:8080/bender/ricas/cer
           
      Para persistencia en disco llenar en JDBC URL : jdbc:h2:file:~/:testdb;DB_CLOSE_ON_EXIT=FALSE;
      Para persistencia en memoria llenar en JDBC URL : jdbc:h2:mem:testdb;
-     NOTA: Al inicio se llenar 4 registros de prueba el archivo es import.sql          
+     NOTA: Al inicio se llenan 4 registros de prueba, desde el archivo es import.sql          
     
     Para ejecutar los rest desde postman:
        GET     localhost:8080/bender/ricas/cervezas/api/beers (Listar todas las cervezas)
